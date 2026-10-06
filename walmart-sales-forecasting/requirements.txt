@@ -1,0 +1,28 @@
+# Core
+pandas
+numpy
+scikit-learn
+matplotlib
+# Imported directly (parallel per-series Prophet fits, model persistence)
+# rather than relied on as a transitive scikit-learn dependency.
+joblib
+
+# Experiment tracking
+mlflow
+python-dotenv
+
+# Tree-based models
+xgboost
+lightgbm
+
+# Classical statistical models
+statsmodels
+pmdarima
+prophet
+
+# Deep learning models
+darts[torch]  # N-BEATS, DLinear
+neuralforecast  # TFT - Darts' TFT/N-BEATS results were flagged as the wrong tool; neuralforecast implements TFT natively
+
+# Notebook execution
+jupyter
